@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Milestone1 from @PaulaSantos: HTML document with a form.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Paula Angeriz-Santos">
+    <title>Paula Angeriz-Santos - Milestone 1</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#publications">Our publications</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner-title">
+            <h1> HTML web page with a form</h1>
+        </section>
+        <section class="about">
+            <h2 id="about">About us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </section>
+        <section class="publications">
+            <h2 id="publications">Our publications</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</p>
+
+            <!--Insert button here-->
+            <button><a href="#publications">Publications</a></button>
+
+        </section>
+        <section class="contact">
+            <h2 id="contact">Get in touch with us:</h2>
+            <form action="/index.html" method="GET" class="form-example">
+                <div>
+                    <label for="email">*Your email: </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="fname">*Your first name: </label>
+                    <input type="text" name="fname" id="fname" required>
+                </div>
+                <div>
+                    <label for="lname">*Your last name: </label>
+                    <input type="text" name="lname" id="lname" required>
+                </div>
+                <div>
+                    <label for="organisation">Your organisation (optional): </label>
+                    <input type="text" name="organisation" id="organisation">
+                </div>
+                <h3>Tell us more about you:</h3>
+                <div>
+                    <input id="student" type="radio" name="answer" value="student">
+                    <label for="student">I'm a student</label>
+                    <br>
+                    <input id="academic" type="radio" name="answer" value="academic">
+                    <label for="academic">I'm an academic</label>
+                    <br>
+                    <input id="other" type="radio" name="answer" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <h4>Other:</h4>
+                <div>
+                    <label for="if-other">If 'Other', please specify: </label>
+                    <input type="text" name="if-other" id="if-other">
+                </div>
+                <div>
+                    <input id="submit" type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Cookies</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
