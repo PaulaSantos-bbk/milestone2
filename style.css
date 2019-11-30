@@ -197,13 +197,13 @@ input {
     /*color: #f89406;*/
   }
 
-  @media screen and (max-width: 416px) {
+  @media screen and (max-width: 440px) {
     nav ul {
       flex-direction: column;
     }
   }
 
-  @media screen and (max-width: 416px) {
+  @media screen and (max-width: 440px) {
 
     footer ul {
       flex-direction: column;
